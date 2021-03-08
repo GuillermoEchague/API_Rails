@@ -88,6 +88,16 @@ Dentro de RSpec.configure do |config|, agregar
 $ bundle exec rspec
 ```
 
+### Crear carpetas para desarrollo TDD
+
+```
+mkdir spec/requests
+touch spec/requests/healt_spec.rb
+$ rails db:migrate
+```
+
+
+
 # README
 
 This README would normally document whatever steps are necessary to get the
